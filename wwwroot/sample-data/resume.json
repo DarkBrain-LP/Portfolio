@@ -1,0 +1,79 @@
+{
+    "about" : "Junior .NET and FLASK backend developer with a growth mindset. Beginner .NET MAUI Mobile Developer. Additional skills in RAZOR, HTML, JavaScript and CSS",
+    "experiences" : [{
+        "companyname": "Google",
+        "title" : "Google Developer Student Clubs Lead at IAI-TOGO",
+        "tenure" : "2022-Now",
+        "description" : "As a GDSC Lead, I bring together 100+ students on workshops, meetups and talks to increase our tech level"
+    },
+    {
+      "companyname": "Darollo Technologies Corporation(DTC)",
+      "title" : "Project manager",
+      "tenure" : "September 2022-Now",
+      "description" : "Manage DTC developement projects. Work and manage on various projects relative to Education."
+    },
+    {
+      "companyname": "Microfinance Pro",
+      "title" : "Dev intern",
+      "tenure" : "September 08, 2022 - October 08, 2022",
+      "description" : "Explore Apache Fineract open source project and built a financial application based on that backend."
+    },
+    {
+      "companyname": "KYA-Energy Group",
+      "title" : "Software development intern",
+      "tenure" : "June 07, 2022- September 07, 2022",
+      "description" : "Software development intern. During this internship, - I practiced my software analysis and design skills,. I set up an automatic update system for all the company's software with C#. This system can be individually integrated with applications or a utility for managing updates of all company software. I created a development server with FLASK providing information and update file download routes. I created integration services with Python and integrated the update system with KYA-SolDesign software (PV system sizing software: https://en.kya-energy.com/products),. I started the update utility implementation with .NET MAUI (similar to JetBrains Toollbox). I designed a PyQt python module that automatically generates PyQt views with CRUD actions. A database and a table are passed as parameters and the view is generated"
+    }],
+    "educations": [
+      {
+        "name": "Bachelor of Science in Software Engineering",
+        "degreeyear": "2023",
+        "description": "Education covering algorithms, programming, operating systems and databases"
+      }
+    ],
+    "skills" : [{
+      "name" : "C#",
+      "estimatedlevel" : 8,
+      "estimateddescription" : "Good"
+    },
+    {
+      "name" : ".NET",
+      "estimatedlevel" : 5,
+      "estimateddescription" : "Good"
+    },
+    {
+      "name" : "ASP .NET",
+      "estimatedlevel" : 7,
+      "estimateddescription" : "Good"
+    },
+    {
+      "name" : ".NET MAUI",
+      "estimatedlevel" : 3,
+      "estimateddescription" : "Beginning"
+    },
+    {
+      "name" : "PYTHON",
+      "estimatedlevel" : 5,
+      "estimateddescription" : "Good"
+    },
+    {
+      "name" : "FLASK",
+      "estimatedlevel" : 7,
+      "estimateddescription" : "Good"
+    },
+    {
+      "name" : "HTML",
+      "estimatedlevel" : 4,
+      "estimateddescription" : "Good"
+    },
+    {
+      "name" : "JavaScript",
+      "estimatedlevel" : 4,
+      "estimateddescription" : "Medium"
+    },
+    {
+      "name" : "CSS",
+      "estimatedlevel" : 3,
+      "estimateddescription" : "Medium"
+    }]
+  }

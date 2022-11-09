@@ -1,0 +1,51 @@
+﻿@page "/resume"
+@using Types
+@inject HttpClient client
+
+<h2>Resume</h2>
+
+<h3>About @name</h3>
+<div class="">
+    @if(@resumeModel != null && @resumeModel.About != null)
+       @resumeModel.About
+</div>
+
+<h3>Experiences</h3>
+<div class="experiences">
+    @if(resumeModel != null && resumeModel.Experiences != null)
+    {
+        foreach(var experience in resumeModel.Experiences){
+            <Experience data=@experience />
+        }
+    }
+</div>
+
+<h3>Education</h3>
+<div class="educations">
+    @if(resumeModel != null && resumeModel.Educations != null)
+    {
+        foreach(var education in resumeModel.Educations){
+            <Education data=@education />
+        }
+    }
+</div>
+
+<h3>Skills</h3>
+<div class="skills">
+    @if(resumeModel != null && resumeModel.Skills != null)
+    {
+        foreach(var skill in resumeModel.Skills){
+            <Skill data=@skill />
+        }
+    }
+</div>
+
+@code {
+    string name = "Yawo Yovo";
+    
+    public ResumeModel resumeModel {get; set;}
+
+    protected override async Task OnInitializedAsync(){
+        resumeModel = await client.GetFromJsonAsync<ResumeModel>("sample-data/resume.json");
+    }
+}
